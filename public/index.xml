@@ -6,15 +6,7 @@
     <description>Recent content on Aref N.Z.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 13:57:26 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First_post</title>
-      <link>http://localhost:1313/posts/first_post/</link>
-      <pubDate>Mon, 18 Mar 2024 13:57:26 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first_post/</guid>
-      <description>me first post {{ &amp;ldquo;now&amp;rdquo; | date: &amp;ldquo;%Y-%m-%dT%H:%M:%S%z&amp;rdquo; }}</description>
-    </item>
     <item>
       <title>BloodHound</title>
       <link>http://localhost:1313/projects/bloodhound/</link>
@@ -27,7 +19,7 @@
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resume/</guid>
-      <description>Hands-On Experience: Cloud This site is hosted on S3 Code Built a multiplatform Python app which can be installed with pip - WallVerse I have practice building a blog / REST API with Flask. I have taken classes that used Assembly, Java, C and C#. UI I have used Bootstrap and I can understand TailwindCSS Linux I know enough to quit vim XD I&amp;rsquo;ve had practice with editing the umask, scheduling cron jobs, using grep/ sed Pentesting Sniffing Active Directory and graphing relationships with BloodHound and SharpHound BloodHound Script kiddie stuff Cracking wifi passwords with dictionaries/ using external sources for password testing Project Management I used Kanban for university projects I&amp;rsquo;ve made simple gantt charts before I can undrestand the basics of Agile vs Waterfall Work History: Cybersecurity Intern at KnowQuest.</description>
+      <description>Most proud of: Built a multi-platform Python app using OOP which can be installed with pip - WallVerse Set up an Active Directory environment with fake users, groups and computers for penetration testing. SSHed to it from a Kali machine, disabled logging and Windows Defender, sniffed AD relations with SharpHound, graphed resource paths with BloodHound This site is hosted on S3, delivered with CloudFront using a custom domain name, secured with a SSL certificate from AWS Certificate Manager Education: Information Technology (Bachelor of Science) May 2019 - Dec 2023 - Grade: 3.</description>
     </item>
     <item>
       <title>WallVerse</title>

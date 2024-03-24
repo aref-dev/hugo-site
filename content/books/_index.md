@@ -1,9 +1,9 @@
-+++
-title = 'First_post'
-date = 2024-03-18T13:57:26-07:00
-draft = false
-+++
+---
+title: "Books"
+type: page
+---
 
-# me first post
+### I have more favorites, but these are the top 5 recent reads I keep thinking about:
 
-{{ "now" | date: "%Y-%m-%dT%H:%M:%S%z" }}
+{{< books >}}
+
