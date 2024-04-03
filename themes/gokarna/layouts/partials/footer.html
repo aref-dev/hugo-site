@@ -1,0 +1,28 @@
+<footer class="footer">
+    <!-- Option for user to inject custom html -->
+    {{ if .Site.Params.CustomFooterHTML }}
+    {{ .Site.Params.CustomFooterHTML | safeHTML }}
+    {{ end }}
+
+    {{ if .Site.Params.footer }}
+    <span>&copy; {{ now.Year }} {{ .Site.Params.Footer}}</span>
+    <span>Views: <span style="display: inline;" id="counter-placeholder"></span></span>
+    {{ end }}
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+
+
+<script>
+    async function updateCounter() {
+        const response = await fetch("https://umomemidzpcbumppsqscukhgoq0qdzpm.lambda-url.us-east-1.on.aws/");
+        const data = await response.json();
+        const counterPlaceholder = document.getElementById("counter-placeholder");
+        counterPlaceholder.textContent = data;
+    }
+    
+    updateCounter();
+</script>
+
+
