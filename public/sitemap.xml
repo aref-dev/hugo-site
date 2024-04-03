@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://rfcv.xyz/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/bloodhound/</loc>
+    <loc>http://rfcv.xyz/projects/bloodhound/</loc>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
+    <loc>http://rfcv.xyz/books/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://rfcv.xyz/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://rfcv.xyz/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>http://rfcv.xyz/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://rfcv.xyz/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/wallverse/</loc>
+    <loc>http://rfcv.xyz/projects/wallverse/</loc>
   </url>
 </urlset>

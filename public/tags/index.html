@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,22 +21,22 @@
     <meta name="description" content="Python | Linux | CCNA | AWS Cloud Practitioner">
     <meta name="keywords" content=''>
 
-    <meta property="og:url" content="http://localhost:1313/tags/">
+    <meta property="og:url" content="http://rfcv.xyz/tags/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Tags">
     <meta property="og:description" content="Python | Linux | CCNA | AWS Cloud Practitioner">
-    <meta property="og:image" content="http://localhost:1313/images/profile-pic.JPG">
-    <meta property="og:image:secure_url" content="http://localhost:1313/images/profile-pic.JPG">
+    <meta property="og:image" content="http://rfcv.xyz/images/profile-pic.JPG">
+    <meta property="og:image:secure_url" content="http://rfcv.xyz/images/profile-pic.JPG">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tags">
     <meta name="twitter:description" content="Python | Linux | CCNA | AWS Cloud Practitioner">
-    <meta property="twitter:domain" content="http://localhost:1313/tags/">
-    <meta property="twitter:url" content="http://localhost:1313/tags/">
-    <meta name="twitter:image" content="http://localhost:1313/images/profile-pic.JPG">
+    <meta property="twitter:domain" content="http://rfcv.xyz/tags/">
+    <meta property="twitter:url" content="http://rfcv.xyz/tags/">
+    <meta name="twitter:image" content="http://rfcv.xyz/images/profile-pic.JPG">
 
     
-    <link rel="canonical" href="http://localhost:1313/tags/" />
+    <link rel="canonical" href="http://rfcv.xyz/tags/" />
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -62,32 +62,32 @@
 
         
         <div class="avatar">
-            <a href="http://localhost:1313/">
+            <a href="http://rfcv.xyz/">
                 <img src='/images/profile-pic.JPG' alt="avatar" />
             </a>
         </div>
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="http://localhost:1313/">Aref N.Z.</a>
+            <a class="nav-brand" href="http://rfcv.xyz/">Aref N.Z.</a>
         </div>
 
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="http://localhost:1313/"><span data-feather='home'></span> Home </a>
+                <a href="http://rfcv.xyz/"><span data-feather='home'></span> Home </a>
             </div>
             
             <div class="nav-link">
-                <a href="http://localhost:1313/books/"><span data-feather='book'></span> Books </a>
+                <a href="http://rfcv.xyz/books/"><span data-feather='book'></span> Books </a>
             </div>
             
             <div class="nav-link">
-                <a href="http://localhost:1313/projects/"><span data-feather='code'></span> Projects </a>
+                <a href="http://rfcv.xyz/projects/"><span data-feather='code'></span> Projects </a>
             </div>
             
             <div class="nav-link">
-                <a href="http://localhost:1313/resume/"><span data-feather='briefcase'></span> Resume </a>
+                <a href="http://rfcv.xyz/resume/"><span data-feather='briefcase'></span> Resume </a>
             </div>
             
             <div class="nav-link">
@@ -114,19 +114,19 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/"><span data-feather='home'></span> Home </a>
+                    <a href="http://rfcv.xyz/"><span data-feather='home'></span> Home </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/books/"><span data-feather='book'></span> Books </a>
+                    <a href="http://rfcv.xyz/books/"><span data-feather='book'></span> Books </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/projects/"><span data-feather='code'></span> Projects </a>
+                    <a href="http://rfcv.xyz/projects/"><span data-feather='code'></span> Projects </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/resume/"><span data-feather='briefcase'></span> Resume </a>
+                    <a href="http://rfcv.xyz/resume/"><span data-feather='briefcase'></span> Resume </a>
                 </li>
                 
                 <li class="nav-item">
@@ -160,10 +160,25 @@
 
     
     <span>&copy; 2024 Aref</span>
+    <span>Views: <span style="display: inline;" id="counter-placeholder"></span></span>
     
     <span>
         Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
     </span>
 </footer>
+
+
+<script>
+    async function updateCounter() {
+        const response = await fetch("https://umomemidzpcbumppsqscukhgoq0qdzpm.lambda-url.us-east-1.on.aws/");
+        const data = await response.json();
+        const counterPlaceholder = document.getElementById("counter-placeholder");
+        counterPlaceholder.textContent = data;
+    }
+    
+    updateCounter();
+</script>
+
+
 </body>
 </html>

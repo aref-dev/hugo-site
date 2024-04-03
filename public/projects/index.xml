@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Aref N.Z.</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>http://rfcv.xyz/projects/</link>
     <description>Recent content in Projects on Aref N.Z.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rfcv.xyz/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BloodHound</title>
-      <link>http://localhost:1313/projects/bloodhound/</link>
+      <link>http://rfcv.xyz/projects/bloodhound/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bloodhound/</guid>
+      <guid>http://rfcv.xyz/projects/bloodhound/</guid>
       <description> </description>
     </item>
     <item>
       <title>WallVerse</title>
-      <link>http://localhost:1313/projects/wallverse/</link>
+      <link>http://rfcv.xyz/projects/wallverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/wallverse/</guid>
+      <guid>http://rfcv.xyz/projects/wallverse/</guid>
       <description>WallVerse on GitHub&#xA;The idea, approach and challenges</description>
     </item>
   </channel>
